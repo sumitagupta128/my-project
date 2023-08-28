@@ -1,4 +1,4 @@
 # my-blog
 ## Introduction
-hi
+hi everyone
 Blog by sumita gupta
