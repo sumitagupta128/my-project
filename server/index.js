@@ -80,14 +80,14 @@ app.post("/", async(req,res)=>{
     }
 })
 //read data
-//http://localhost:8000/
+//https://shop-plus-plus.onrender.com/
 app.get("/users", async(req,res)=>{
     const data= await userModel.find({})
     res.json({success:true,data:data})
 })
 
 //create or save data
-//http://localhost:8000/create
+//https://shop-plus-plus.onrender.com/create
 /*
 {
     "name":""
@@ -119,7 +119,7 @@ app.post("/create", async(req,res)=>{
 })
 
 //update data
-//http://localhost:8000/update
+//https://shop-plus-plus.onrender.com/update
 /*{
       id:""
       name:""
@@ -136,7 +136,7 @@ app.put("/update", async(req,res)=>{
 
 
 //delete api
-//http://localhost:8000/delete/id
+//https://shop-plus-plus.onrender.com/delete/id
 app.delete("/delete/:id",async(req,res)=>{
     const id=req.params.id
     //console.log(id)
@@ -185,7 +185,7 @@ catch(e)
 
 
 //delete api
-//http://localhost:8000/delete/id
+//https://shop-plus-plus.onrender.com/delete/id
 app.delete("/deletecategory/:id",async(req,res)=>{
     const id=req.params.id
     //console.log(id)
@@ -206,7 +206,7 @@ const schemaProductData = mongoose.Schema({
 const productModel = mongoose.model("products",schemaProductData)
 
 //read data
-//http://localhost:8000/
+//https://shop-plus-plus.onrender.com/
 app.get("/products", async(req,res)=>{
     const data= await productModel.find({})
     res.json({success:true,data:data})
@@ -217,7 +217,7 @@ app.get("/productbysearch/:id", async(req,res)=>{
     res.json({success:true,data:data})
 })
 //create or save data
-//http://localhost:8000/create
+//https://shop-plus-plus.onrender.com/create
 /*
 {
     "name":""
@@ -251,7 +251,7 @@ app.post("/createproduct", upload.single("image") ,async(req,res)=>{
 })
 
 //update data
-//http://localhost:8000/update
+//https://shop-plus-plus.onrender.com/update
 /*{
       id:""
       name:""
@@ -283,7 +283,7 @@ catch(e)
 
 
 //delete api
-//http://localhost:8000/delete/id
+//https://shop-plus-plus.onrender.com/delete/id
 app.delete("/deleteproduct/:id",async(req,res)=>{
     const id=req.params.id
     //console.log(id)
@@ -315,7 +315,7 @@ const schemaOrderData = mongoose.Schema({
 const orderModel = mongoose.model("orders",schemaOrderData)
 
 //read data
-//http://localhost:8000/
+//https://shop-plus-plus.onrender.com/
 app.get("/orders", async(req,res)=>{
     const data= await orderModel.find({})
     res.json({success:true,data:data})
@@ -328,7 +328,7 @@ app.get("/orderbyuser/:id", async(req,res)=>{
 })
 
 //create or save data
-//http://localhost:8000/create
+//https://shop-plus-plus.onrender.com/create
 /*
 {
     "name":""
@@ -344,7 +344,7 @@ app.post("/createorder", async(req,res)=>{
 })
 
 //update data
-//http://localhost:8000/update
+//https://shop-plus-plus.onrender.com/update
 /*{
       id:""
       name:""
@@ -361,7 +361,7 @@ app.put("/updateorder", async(req,res)=>{
 
 
 //delete api
-//http://localhost:8000/delete/id
+//https://shop-plus-plus.onrender.com/delete/id
 app.delete("/deleteorder/:id",async(req,res)=>{
     const id=req.params.id
     //console.log(id)

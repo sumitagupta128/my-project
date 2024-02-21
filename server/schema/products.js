@@ -15,14 +15,14 @@ const schemaProductData = mongoose.Schema({
 const productModel = mongoose.model("products",schemaProductData)
 
 //read data
-//http://localhost:8000/
+//https://shop-plus-plus.onrender.com/
 app.get("/products", async(req,res)=>{
     const data= await productModel.find({})
     res.json({success:true,data:data})
 })
 
 //create or save data
-//http://localhost:8000/create
+//https://shop-plus-plus.onrender.com/create
 /*
 {
     "name":""
@@ -38,7 +38,7 @@ app.post("/createproduct", async(req,res)=>{
 })
 
 //update data
-//http://localhost:8000/update
+//https://shop-plus-plus.onrender.com/update
 /*{
       id:""
       name:""
@@ -55,7 +55,7 @@ app.put("/updateproduct", async(req,res)=>{
 
 
 //delete api
-//http://localhost:8000/delete/id
+//https://shop-plus-plus.onrender.com/delete/id
 app.delete("/deleteproduct/:id",async(req,res)=>{
     const id=req.params.id
     //console.log(id)
