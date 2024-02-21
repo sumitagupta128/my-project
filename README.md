@@ -1,4 +1,3 @@
-# my-blog
+# my-ecommerce-project
 ## Introduction
-hi everyone
-Blog by sumita gupta
+
