@@ -4,17 +4,17 @@ import { clearCart } from  "../store/actions/cartActions"
 import UserNavbar from "./UserNavbar";
 import axios from 'axios';
 //import PaytmChecksum from './paytmChecksum';
-import https from 'https';
+//import https from 'https';
 
 function Shipping()
 {
-  const [paymentData, setPaymentData] = useState({
+  /*const [paymentData, setPaymentData] = useState({
     token: "", 
     order: "", 
     mid: "",
     amount: ""
 });
-const [loading, setLoading] = useState(false);
+const [loading, setLoading] = useState(false);*/
 
     const dispatch=useDispatch();
     const { totalProducts, totalCost, items } = useSelector(

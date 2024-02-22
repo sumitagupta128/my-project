@@ -2,7 +2,6 @@ import React from 'react'
 import { useEffect, useState } from 'react';
 import '../App.css';
 import axios from 'axios';
-import {useNavigate } from "react-router-dom"
 import UserNavbar from './UserNavbar';
 import UserBottonNavBar from './UserBottomNavBar';
 function MyOrders(){

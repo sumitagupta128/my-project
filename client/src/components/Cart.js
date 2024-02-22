@@ -1,10 +1,8 @@
 import React, { memo } from "react";
 import { useSelector, useDispatch, shallowEqual } from "react-redux";
 import CartItem from "./CartItem.js";
-import CartTotals from "./CartTotals.js";
 import { setQuantity, removeItem } from "../store/actions/cartActions.js";
 import UserNavbar from "./UserNavbar"
-import axios from 'axios';
 
 const Cart = memo(() => {
   const { totalProducts, totalCost, items } = useSelector(

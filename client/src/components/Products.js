@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import axios from 'axios';
 import { useSelector,useDispatch } from "react-redux";
 import ProductCard from "./ProductCard"
-import  { allCategory, initProducts, searchProducts }  from "../store/actions/catalogActions.js";
+import  {  initProducts, searchProducts }  from "../store/actions/catalogActions.js";
 import UserNavbar from "./UserNavbar"
 import { connect } from "react-redux";
 import { addToCart } from "../store/actions/cartActions.js";

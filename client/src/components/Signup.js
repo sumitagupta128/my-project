@@ -1,6 +1,6 @@
-import React ,{useState,useEffect} from "react";
+import React ,{useState} from "react";
 import axios from "axios"
-import {useNavigate,Link } from "react-router-dom"
+import {useNavigate } from "react-router-dom"
 import UserNavbar from "./UserNavbar"
 import UserBottonNavBar from "./UserBottomNavBar";
 

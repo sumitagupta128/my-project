@@ -1,7 +1,6 @@
 import React, { memo } from "react";
 import { useSelector, useDispatch, shallowEqual } from "react-redux";
 import WishlistItem from "./WishlistItem.js";
-import WishlistTotals from "./WishlistTotals.js";
 import { setWishlistQuantity, removeWishlistItem } from "../store/actions/wishlistActions.js";
 import UserNavbar from "./UserNavbar"
 import { addToCart } from "../store/actions/cartActions.js";

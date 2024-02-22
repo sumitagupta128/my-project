@@ -1,6 +1,6 @@
 import React  from "react";
 import { useEffect, useState } from 'react';
-import {useNavigate,useLocation, Link } from "react-router-dom"
+import {useNavigate } from "react-router-dom"
 
 function Home(){
     const[Username,setUsername]=useState("");

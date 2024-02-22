@@ -1,6 +1,5 @@
 import React from "react";
 import {Card} from 'react-bootstrap';
-import { addToCart } from "../store/actions/cartActions";
 
 const WishlistItem = ({
   name,
