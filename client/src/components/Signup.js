@@ -68,7 +68,7 @@ const handleOnChange=(e)=>{
 //async function submit(e){
 //    e.preventDefault()
 //    try{
-//        await axios.post("http://localhost:8000/signup",{email,password})
+//        await axios.post("https://shop-plus-plus.onrender.com/signup",{email,password})
 //    }
 //    catch(e){
 //        console.log(e)

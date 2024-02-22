@@ -10,7 +10,7 @@ import { useSearchParams } from "react-router-dom";
 import { addToWishlistCart } from "../store/actions/wishlistActions.js";
 import UserBottonNavBar from "./UserBottomNavBar.js";
 
-axios.defaults.baseURL="http://localhost:8000/"
+axios.defaults.baseURL="https://shop-plus-plus.onrender.com/"
 
 const Products = ({ 
   onAddToCart,
