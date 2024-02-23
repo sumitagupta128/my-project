@@ -2,7 +2,7 @@
 //const catalogService = require("../../services/catalog");
 //const {getDepartments, getProducts}=catalogService ;
 import axios from 'axios';
-axios.defaults.baseURL="http://localhost:8000"
+axios.defaults.baseURL="https://shop-plus-plus.onrender.com"
 export const setFilter = product => {
   return {
     type: "SET_FILTER",
