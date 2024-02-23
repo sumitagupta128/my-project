@@ -207,7 +207,7 @@ app.get("/productbysearch/:id", async(req,res)=>{
 //create or save data
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-      cb(null, '../client/src/productimages/')
+      cb(null, 'https://shop-plus.onrender.com/src/productimages/')
     },
     filename: function (req, file, cb) {
         const uniqueSuffix=Date.now();
