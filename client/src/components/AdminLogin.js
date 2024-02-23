@@ -2,7 +2,7 @@ import React ,{useState} from "react";
 import axios from "axios"
 import {useNavigate } from "react-router-dom"
 
-axios.defaults.baseURL="https://shop-plus-plus.onrender.com/"
+axios.defaults.baseURL="https://shop-plus-plus.onrender.com"
 function Login(){
 const history= useNavigate();
 const [email,setEmail]=useState('')

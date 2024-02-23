@@ -65,16 +65,7 @@ const handleOnChange=(e)=>{
       navigate("/login")
     }
   }
-//async function submit(e){
-//    e.preventDefault()
-//    try{
-//        await axios.post("https://shop-plus-plus.onrender.com/signup",{email,password})
-//    }
-//    catch(e){
-//        console.log(e)
 
-//    }
-//}
 
     return(
       <>

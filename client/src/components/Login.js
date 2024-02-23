@@ -3,7 +3,7 @@ import axios from "axios"
 import {useNavigate } from "react-router-dom"
 import UserNavbar from "./UserNavbar"
 import UserBottonNavBar from "./UserBottomNavBar";
-axios.defaults.baseURL="https://shop-plus-plus.onrender.com/"
+axios.defaults.baseURL="https://shop-plus-plus.onrender.com"
 
 function Login(){
     const history= useNavigate();

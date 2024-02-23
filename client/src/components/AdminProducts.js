@@ -3,7 +3,7 @@ import '../App.css';
 import axios from 'axios';
 import Productform from './Productform'
 import {useNavigate } from "react-router-dom"
-axios.defaults.baseURL="https://shop-plus-plus.onrender.com/"
+axios.defaults.baseURL="https://shop-plus-plus.onrender.com"
 
 function AdminProducts(){
   const history= useNavigate();
@@ -116,6 +116,8 @@ const [addSection, setAddSection] = useState(false)
   };*/
   //console.log(product);
   //console.log(formData2);
+  try
+  {
    const data = await axios.post("/createproduct",formData2,{
     headers:{"Content-Type":"multipart/form-data"},
    });
@@ -125,6 +127,11 @@ const [addSection, setAddSection] = useState(false)
       getFetchData()
       alert(data.data.message)
     }
+  }
+  catch(e)
+  {
+    console.log(e)
+  }
   }
 
   const getFetchData = async()=>{

@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import axios from 'axios';
 import { useSelector,useDispatch } from "react-redux";
 import ProductCard from "./ProductCard"
 import  {  initProducts, searchProducts }  from "../store/actions/catalogActions.js";
@@ -9,8 +8,6 @@ import { addToCart } from "../store/actions/cartActions.js";
 import { useSearchParams } from "react-router-dom";
 import { addToWishlistCart } from "../store/actions/wishlistActions.js";
 import UserBottonNavBar from "./UserBottomNavBar.js";
-
-axios.defaults.baseURL="https://shop-plus-plus.onrender.com/"
 
 const Products = ({ 
   onAddToCart,

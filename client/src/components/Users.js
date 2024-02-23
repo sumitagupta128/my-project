@@ -3,7 +3,7 @@ import '../App.css';
 import axios from 'axios';
 import Userform from '../components/Userform'
 import {useNavigate } from "react-router-dom"
-axios.defaults.baseURL="https://shop-plus-plus.onrender.com/"
+axios.defaults.baseURL="https://shop-plus-plus.onrender.com"
 
 function Users(){
   const history= useNavigate();
