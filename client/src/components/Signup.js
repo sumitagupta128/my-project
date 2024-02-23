@@ -62,7 +62,7 @@ const handleOnChange=(e)=>{
       //setAddSection(false)
       //getFetchData()
       alert(data.data.message)
-      navigate("/Login")
+      navigate("/login")
     }
   }
 //async function submit(e){

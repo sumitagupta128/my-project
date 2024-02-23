@@ -154,7 +154,7 @@ function UserBottonNavBar(){
             <div className="glb-item my-account">
                 <b className="title">My Account</b>
                 <ul className="list">
-                    <li className="list-item"><a href="/Login">Login/register</a></li>
+                    <li className="list-item"><a href="/login">Login/register</a></li>
                     <li className="list-item"><a href="/WishlistCart">Wishlist <span className="index"></span></a></li>
                 </ul>
             </div>

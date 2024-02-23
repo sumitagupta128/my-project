@@ -95,7 +95,7 @@ function UserNavbar(){
                         </li>
                         <li>
                         {!isUserLoggedIn &&
-                                <li><a href="/Login" className="login-link"><i className="biolife-icon icon-login"></i>Login/Register</a></li>
+                                <li><a href="/login" className="login-link"><i className="biolife-icon icon-login"></i>Login/Register</a></li>
 
                         }
                         {!isAdmin && isUserLoggedIn &&

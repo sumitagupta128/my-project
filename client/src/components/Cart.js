@@ -12,7 +12,7 @@ const Cart = memo(() => {
   const userInfo= localStorage.getItem("userInfo");
   if(userInfo==null)
   {
-    window.location.href="/Login"
+    window.location.href="/login"
   }
   //console.log(totalCost)
   const checkout= async(e)=>
@@ -20,7 +20,7 @@ const Cart = memo(() => {
         //console.log(items)
         if(userInfo==null)
         {
-          window.location.href="/Login"
+          window.location.href="/login"
         }
         else
         {

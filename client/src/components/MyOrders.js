@@ -12,7 +12,7 @@ function MyOrders(){
     //const user= localStorage.getItem("userId");
     if(userId==="")
     {
-      window.location.href="/Login";
+      window.location.href="/login";
     }
    
   
